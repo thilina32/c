@@ -1,0 +1,8 @@
+A university wants to develop a Course Management System to maintain information about its courses and
+lecturers. A course can have a lecturer assigned to it, but a lecturer can exist independently of a course and may
+later be assigned to another course. The system should allow the user to enter the details of a course, including
+the course code, course name, and credit value, as well as the details of a lecturer, including the lecturer ID, name,
+and specialization. The program should create the relevant objects, associate a lecturer with a course, and display
+all the course and lecturer details. In addition, the system should determine whether the course is a major course
+based on its credit value. A course should be considered a major course if its credit value is greater than or equal
+to 3; otherwise, it should be considered a minor course.
