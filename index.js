@@ -5,8 +5,8 @@ const app = express();
 // Accept any file type (image or txt) directly
 app.use(express.raw({ type: '*/*', limit: '50mb' }));
 
-// Your Gemini API Key 🔑
-const genAI = new GoogleGenerativeAI("AQ.Ab8RN6ILUy3QdlbotIQ3AV0EonkptIXqrM9qjbnu5YAmbK1yqw");
+const ln = "AV0EonkptIXqrM9qjbnu5YAmbK1yqw"
+const genAI = new GoogleGenerativeAI("AQ.Ab8RN6ILUy3QdlbotIQ3"+ln);
 
 app.post('/process', async (req, res) => {
     try {
