@@ -28,7 +28,7 @@ public class Main {
 
             // Node.js Backend එකට ෆයිල් එක යවනවා 
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("http://localhost:3000/process"))
+                    .uri(URI.create("https://javascanner.vercel.app/process"))
                     .header("Content-Type", mimeType)
                     .POST(HttpRequest.BodyPublishers.ofFile(targetFile))
                     .build();
