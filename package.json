@@ -1,0 +1,11 @@
+{
+  "name": "thilina-oop-gemini-bot",
+  "version": "1.0.0",
+  "description": "Backend for generating Java OOP code from images/text",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.1",
+    "express": "^4.19.2"
+  }
+}
